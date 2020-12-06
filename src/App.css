@@ -1,0 +1,47 @@
+
+.No-select {
+    user-select: none;
+}
+
+.Schedule-table {
+    cursor: default;
+}
+
+.Schedule-table-cell {
+    min-width: 200px;
+    transition: all .2s linear;
+    cursor: pointer;
+}
+
+.Schedule-table-cell:hover {
+    background-color: #28a745 !important;
+    color: #fff !important;
+}
+
+.Current-day {
+    background-color: #512DA8;
+    color: #fff;
+}
+.Lecture-image {
+    width: 100%;
+    object-fit: contain;
+    transition: all .3s linear;
+}
+
+.Lecture-image-panel {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+     transform: rotateY(90deg);
+    background-color: rgba(0,0,0,.5);
+    transition: all .15s linear;
+}
+
+.Lecture-image-panel-open {
+    transform: rotateY(0deg);
+}
+
+/* .Lecture-image-container:hover .Lecture-image-panel{
+    transform: rotateY(0deg);
+} */
