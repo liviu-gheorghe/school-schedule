@@ -1,17 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import SchedulePage from './schedule_page/SchedulePage';
 import 'bootstrap/dist/css/bootstrap.css';
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import {BrowserRouter,Route,Switch} from 'react-router-dom';
+import HomePage from './home_page/HomePage';
 import { 
   faCheckSquare,
   faCoffee,
   faCommentDots,
   faEllipsisH,
-  faEllipsisV
-} from '@fortawesome/free-solid-svg-icons'
+  faEllipsisV,
+  faClock,
+  faVideo
+} from '@fortawesome/free-solid-svg-icons';
 
 library.add(
   fab,
@@ -19,12 +23,22 @@ library.add(
   faCoffee,
   faCommentDots,
   faEllipsisH,
-  faEllipsisV
+  faEllipsisV,
+  faClock,
+  faVideo
   );
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Switch>
+      <Route exact path="/">
+        <HomePage />
+      </Route>
+      <Route exact path = "/schedule">
+        <SchedulePage />
+      </Route>
+      <Route><p>Not found</p></Route>
+    </Switch>
+  </BrowserRouter>,
   document.getElementById('root')
 );

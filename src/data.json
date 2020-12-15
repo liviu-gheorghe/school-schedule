@@ -145,61 +145,213 @@
       "img": "sport.jpg"
     }
   ],
-  "school_days": [
-    {
-      "day_name" : "Luni",
-      "lectures" : [
-        {"subject_index":0,"id":"7d17e9e8-13fa-4934-a818-ff362c6684ea","start_time":"07:30 AM","end_time":"08:15 PM"},
-        {"subject_index":0,"id":"7d17e9e8-13fa-4934-a818-ff362c6684ea","start_time":"08:30 AM","end_time":"09:15 PM"},
-        {"subject_index":0,"id":"7d17e9e8-13fa-4934-a818-ff362c6684ea","start_time":"09:30 AM","end_time":"10:15 PM"},
-        {"subject_index":1,"id":"fa39ce7c-b43e-4e7a-bece-a67274b56ef6","start_time":"10:30 AM","end_time":"11:15 PM"},
-        {"subject_index":2,"id":"fb2bba87-c5e0-4b2c-973f-a2c7cfcb129e"},
-        {"subject_index":3,"id":"1f08d252-fcca-4e00-921b-de0ba57251f2"}
-        ]
-    },
-    {
-      "day_name": "Marti",
-      "lectures": [
-        {"subject_index":4,"id":"9ec64bcc-29c8-43f3-918b-c873be5b8977"},
-        {"subject_index":5,"id":"04fd57bb-33b3-40db-9800-6010aa71bc0d"},
-        {"subject_index":6,"id":"7277a089-bf5a-4c49-b99e-3f4a0167262e"},
-        {"subject_index":7,"id":"7dbf8b19-6807-4af7-9282-8b1d199767fb"},
-        {"subject_index":10,"id":"8c5e08ca-562e-4f1a-b1e3-c357e1e5087d"},
-        {"subject_index":10,"id":"8c5e08ca-562e-4f1a-b1e3-c357e1e5087d"}
+
+
+"school_days": [
+   {
+      "day_name":"Luni",
+      "lectures":[
+         {
+            "subject_index":0,
+            "id":"7d17e9e8-13fa-4934-a818-ff362c6684ea",
+            "start_time":"7:30",
+            "end_time":"8:15"
+         },
+         {
+            "subject_index":0,
+            "id":"7d17e9e8-13fa-4934-a818-ff362c6684ea",
+            "start_time":"8:30",
+            "end_time":"9:15"
+         },
+         {
+            "subject_index":0,
+            "id":"7d17e9e8-13fa-4934-a818-ff362c6684ea",
+            "start_time":"9:30",
+            "end_time":"10:15"
+         },
+         {
+            "subject_index":1,
+            "id":"fa39ce7c-b43e-4e7a-bece-a67274b56ef6",
+            "start_time":"10:30",
+            "end_time":"11:15"
+         },
+         {
+            "subject_index":2,
+            "id":"fb2bba87-c5e0-4b2c-973f-a2c7cfcb129e",
+            "start_time":"11:30",
+            "end_time":"12:15"
+         },
+         {
+            "subject_index":3,
+            "id":"1f08d252-fcca-4e00-921b-de0ba57251f2",
+            "start_time":"12:30",
+            "end_time":"13:15"
+         }
       ]
-    },
-    {
-      "day_name": "Miercuri",
-      "lectures": [
-        {"subject_index":2,"id":"fb2bba87-c5e0-4b2c-973f-a2c7cfcb129e"},
-        {"subject_index":7,"id":"7dbf8b19-6807-4af7-9282-8b1d199767fb"},
-        {"subject_index":7,"id":"7dbf8b19-6807-4af7-9282-8b1d199767fb"},
-        {"subject_index":8,"id":"f2cfdaf4-2056-4b09-b145-558b2727baa8"},
-        {"subject_index":2,"id":"fb2bba87-c5e0-4b2c-973f-a2c7cfcb129e"},
-        {"subject_index":0,"id":"7d17e9e8-13fa-4934-a818-ff362c6684ea"}
+   },
+   {
+      "day_name":"Marti",
+      "lectures":[
+         {
+            "subject_index":4,
+            "id":"9ec64bcc-29c8-43f3-918b-c873be5b8977",
+            "start_time":"7:30",
+            "end_time":"8:15"
+         },
+         {
+            "subject_index":5,
+            "id":"04fd57bb-33b3-40db-9800-6010aa71bc0d",
+            "start_time":"8:30",
+            "end_time":"9:15"
+         },
+         {
+            "subject_index":6,
+            "id":"7277a089-bf5a-4c49-b99e-3f4a0167262e",
+            "start_time":"9:30",
+            "end_time":"10:15"
+         },
+         {
+            "subject_index":7,
+            "id":"7dbf8b19-6807-4af7-9282-8b1d199767fb",
+            "start_time":"10:30",
+            "end_time":"11:15"
+         },
+         {
+            "subject_index":10,
+            "id":"8c5e08ca-562e-4f1a-b1e3-c357e1e5087d",
+            "start_time":"11:30",
+            "end_time":"12:15"
+         },
+         {
+            "subject_index":10,
+            "id":"8c5e08ca-562e-4f1a-b1e3-c357e1e5087d",
+            "start_time":"12:30",
+            "end_time":"13:15"
+         }
       ]
-    },
-    {
-      "day_name": "Joi",
-      "lectures": [
-        {"subject_index":0,"id":"7d17e9e8-13fa-4934-a818-ff362c6684ea"},
-        {"subject_index":0,"id":"7d17e9e8-13fa-4934-a818-ff362c6684ea"},
-        {"subject_index":0,"id":"7d17e9e8-13fa-4934-a818-ff362c6684ea"},
-        {"subject_index":1,"id":"fa39ce7c-b43e-4e7a-bece-a67274b56ef6"},
-        {"subject_index":7,"id":"7dbf8b19-6807-4af7-9282-8b1d199767fb"},
-        {"subject_index":7,"id":"7dbf8b19-6807-4af7-9282-8b1d199767fb"}
+   },
+   {
+      "day_name":"Miercuri",
+      "lectures":[
+         {
+            "subject_index":2,
+            "id":"fb2bba87-c5e0-4b2c-973f-a2c7cfcb129e",
+            "start_time":"7:30",
+            "end_time":"8:15"
+         },
+         {
+            "subject_index":7,
+            "id":"7dbf8b19-6807-4af7-9282-8b1d199767fb",
+            "start_time":"8:30",
+            "end_time":"9:15"
+         },
+         {
+            "subject_index":7,
+            "id":"7dbf8b19-6807-4af7-9282-8b1d199767fb",
+            "start_time":"9:30",
+            "end_time":"10:15"
+         },
+         {
+            "subject_index":8,
+            "id":"f2cfdaf4-2056-4b09-b145-558b2727baa8",
+            "start_time":"10:30",
+            "end_time":"11:15"
+         },
+         {
+            "subject_index":2,
+            "id":"fb2bba87-c5e0-4b2c-973f-a2c7cfcb129e",
+            "start_time":"11:30",
+            "end_time":"12:15"
+         },
+         {
+            "subject_index":0,
+            "id":"7d17e9e8-13fa-4934-a818-ff362c6684ea",
+            "start_time":"12:30",
+            "end_time":"13:15"
+         }
       ]
-    },
-    {
-      "day_name": "Vineri",
-      "lectures": [
-        {"subject_index":12,"id":"4c516958-24ce-45c7-8932-417b20efed6f"},
-        {"subject_index":9,"id":"9ff0698a-86df-40e4-b087-36bfed9d5b3c"},
-        {"subject_index":10,"id":"8c5e08ca-562e-4f1a-b1e3-c357e1e5087d"},
-        {"subject_index":4,"id":"9ec64bcc-29c8-43f3-918b-c873be5b8977"},
-        {"subject_index":0,"id":"7d17e9e8-13fa-4934-a818-ff362c6684ea"},
-        {"subject_index":11,"id":"8e5ee5fd-3033-4fb9-8ad3-d96252fa68e8"}
+   },
+   {
+      "day_name":"Joi",
+      "lectures":[
+         {
+            "subject_index":0,
+            "id":"7d17e9e8-13fa-4934-a818-ff362c6684ea",
+            "start_time":"7:30",
+            "end_time":"8:15"
+         },
+         {
+            "subject_index":0,
+            "id":"7d17e9e8-13fa-4934-a818-ff362c6684ea",
+            "start_time":"8:30",
+            "end_time":"9:15"
+         },
+         {
+            "subject_index":0,
+            "id":"7d17e9e8-13fa-4934-a818-ff362c6684ea",
+            "start_time":"9:30",
+            "end_time":"10:15"
+         },
+         {
+            "subject_index":1,
+            "id":"fa39ce7c-b43e-4e7a-bece-a67274b56ef6",
+            "start_time":"10:30",
+            "end_time":"11:15"
+         },
+         {
+            "subject_index":7,
+            "id":"7dbf8b19-6807-4af7-9282-8b1d199767fb",
+            "start_time":"11:30",
+            "end_time":"12:15"
+         },
+         {
+            "subject_index":7,
+            "id":"7dbf8b19-6807-4af7-9282-8b1d199767fb",
+            "start_time":"12:30",
+            "end_time":"13:15"
+         }
       ]
-    }
-  ]
+   },
+   {
+      "day_name":"Vineri",
+      "lectures":[
+         {
+            "subject_index":12,
+            "id":"4c516958-24ce-45c7-8932-417b20efed6f",
+            "start_time":"7:30",
+            "end_time":"8:15"
+         },
+         {
+            "subject_index":9,
+            "id":"9ff0698a-86df-40e4-b087-36bfed9d5b3c",
+            "start_time":"8:30",
+            "end_time":"9:15"
+         },
+         {
+            "subject_index":10,
+            "id":"8c5e08ca-562e-4f1a-b1e3-c357e1e5087d",
+            "start_time":"9:30",
+            "end_time":"10:15"
+         },
+         {
+            "subject_index":4,
+            "id":"9ec64bcc-29c8-43f3-918b-c873be5b8977",
+            "start_time":"10:30",
+            "end_time":"11:15"
+         },
+         {
+            "subject_index":0,
+            "id":"7d17e9e8-13fa-4934-a818-ff362c6684ea",
+            "start_time":"11:30",
+            "end_time":"12:15"
+         },
+         {
+            "subject_index":11,
+            "id":"8e5ee5fd-3033-4fb9-8ad3-d96252fa68e8",
+            "start_time":"12:30",
+            "end_time":"13:15"
+         }
+      ]
+   }
+]
 }
